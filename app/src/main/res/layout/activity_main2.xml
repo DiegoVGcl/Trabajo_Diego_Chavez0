@@ -194,8 +194,12 @@
         android:id="@+id/imageView25"
         android:layout_width="174dp"
         android:layout_height="55dp"
-        app:srcCompat="@drawable/gnjhgfgh__1_"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104"
+        app:srcCompat="@drawable/gnjhgfgh__1_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

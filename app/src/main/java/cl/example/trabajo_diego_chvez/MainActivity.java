@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_home);
 
-        ImageButton btnGoToActivity2 = findViewById(R.id.btSpanish);
-        Intent intent = new Intent(this,MainActivity2.class);
+        //ImageButton btnGoToActivity2 = findViewById(R.id.btSpanish);
+        Intent intent = new Intent(this,MainActivity3.class);
+        btnGoToActivity2=(ImageButton) findViewById(R.id.btSpanish);
         btnGoToActivity2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
 
 
